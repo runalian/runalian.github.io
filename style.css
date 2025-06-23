@@ -12,6 +12,23 @@ body {
   color: #222;
 }
 
+.me {
+  border-radius: 1em;
+  background-color: lightgray;
+  margin-top: 2em;
+}
+
+.me p {
+  margin: 10px;
+  text-align: center;
+}
+
+#name {
+  font-size: larger;
+  font-weight: bold;
+}
+
+
 .lang-switch {
   position: fixed;
   top: 10px;

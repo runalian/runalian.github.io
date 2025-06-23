@@ -1,8 +1,8 @@
 {
-    "home_title":{
-        "fr": "Bienvenue sur mon portfolio",
-        "en": "Welcome to my portfolio",
-        "ar": "مرحبًا بك في ملفي الشخصي"
+    "title":{
+        "fr": "Ingénieur Informatique",
+        "en": "Engineer in Computer Science",
+        "ar": "مهندس كمبيوتر"
     },
 
     "introduction":{

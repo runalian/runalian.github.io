@@ -6,8 +6,8 @@ async function loadContent(lang) {
     const res = await fetch("lang.json");
     const data = await res.json();
 
-    // Maj contenu
-    document.getElementById("title").textContent = data.home_title[lang] || data.home_title.fr;
+    // Maj conten
+    document.getElementById("title").textContent = data.title[lang] || data.title.fr;
     document.getElementById("intro").textContent = data.introduction[lang] || data.introduction.fr;
 
     document.documentElement.lang = lang;
