@@ -1,28 +1,48 @@
-<!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" prefix="dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/">
+
 <head>
   <meta charset="UTF-8">
   <title>Portfolio Multilingue</title>
-  <link rel="alternate" href="index.php?lang=fr" hreflang="fr"/>
-  <link rel="alternate" href="index.php?lang=en" hreflang="en"/>
-  <link rel="alternate" href="index.php?lang=ar" hreflang="ar"/>
-  <meta name="description" content="Portfolio personnel multilingue">
-  <meta property="og:locale" content="fr_FR"/>
-  <meta property="og:type" content="website"/>
+
+  <!-- meta -->
+  <meta property="dc:title" lang="fr" content="Portfolio Multilingue" />
+  <meta property="dc:title" lang="en" content="Multilingual Portfolio" />
+  <meta property="dc:title" lang="ar" content="ملف شخصي متعدد اللغات" />
+
+  <meta property="dc:description" lang="fr" content="Portfolio personnel multilingue" />
+  <meta property="dc:description" lang="en" content="Multilingual personal portfolio" />
+  <meta property="dc:description" lang="ar" content="ملف شخصي متعدد اللغات" />
+
+  <meta property="dc:language" content="fr" />
+  <meta property="og:locale:alternate" content="en_GB" />
+  <meta property="og:locale:alternate" content="ar_PS" />
+  <meta property="dc:creator" content="Bombay Marc" />
+
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:type" content="website" />
+
+  <!-- autres langues -->
+  <link rel="alternate" href="index.php?lang=fr" hreflang="fr" />
+  <link rel="alternate" href="index.php?lang=en" hreflang="en" />
+  <link rel="alternate" href="index.php?lang=ar" hreflang="ar" />
+
+  <!-- css -->
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<body typeof="foaf:PersonalProfileDocument">
   <div class="lang-switch">
     <button onclick="setLanguage('fr')">FR</button>
     <button onclick="setLanguage('en')">EN</button>
     <button onclick="setLanguage('ar')">AR</button>
   </div>
-  <div class="me">
-    <p id="name">Bombay Marc</p>
+  <div class="me" typeof="foaf:Person">
+    <p id="name" property="foaf:name">Bombay Marc</p>
     <p id="title">...</p>
-    <p id="email">bombay.marc@gmail.com</p>
+    <p id="email" property="foaf:mbox">bombay.marc@gmail.com</p>
   </div>
-  <p id="intro">...</p>
+  <p id="intro" property="dc:description">...</p>
+
+  <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>

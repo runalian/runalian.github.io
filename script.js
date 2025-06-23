@@ -11,6 +11,7 @@ async function loadContent(lang) {
     document.getElementById("intro").textContent = data.introduction[lang] || data.introduction.fr;
 
     document.documentElement.lang = lang;
+    // dir. lecture
     document.body.dir = lang === "ar" ? "rtl" : "ltr";
 
   } catch (error) {
