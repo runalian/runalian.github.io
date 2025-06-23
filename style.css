@@ -54,21 +54,39 @@ body {
 }
 
 h1 {
-  margin-top: 3rem;
   font-size: 2rem;
 }
 
-video {
-  max-width: 100%;
-  width: 100%;
-  display: block;
-  margin-top: 1.5rem;
-  border-radius: 6px;
+h2 {
+  text-align:center;
 }
 
-/* Support pour les interfaces RTL */
+section {
+  background-color:#bdbdbd;
+  margin-top: 1.5rem;
+  border-bottom: 1px solid var(--clr-border);
+  padding: 0.5rem;
+  border-radius:1em;
+}
+
+section div {
+  border-style:solid;
+  border-radius: 0.5em;
+  border-color: rgba(150,150,150,50);
+  margin:0.5em;
+  padding:0.5em;
+}
+
+ul {
+  list-style: disc inside;
+  margin-left: 1rem;
+  margin-top: .5rem;
+}
+
+/* Style RTL (arabe) */
 [dir="rtl"] {
   text-align: right;
+  font-family: "Noto Naskh Arabic", "Scheherazade New", "Amiri", serif;
 }
 
 [dir="rtl"] .lang-switch {

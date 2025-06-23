@@ -1,13 +1,132 @@
 {
-    "title":{
+    "title": {
         "fr": "Ingénieur Informatique",
         "en": "Engineer in Computer Science",
         "ar": "مهندس كمبيوتر"
     },
-
-    "introduction":{
-        "fr" : "J'apprends le web sémantique",
-        "en" : "I'm learning the semantic web",
+    "introduction": {
+        "fr": "J'apprends le web sémantique",
+        "en": "I'm learning the semantic web",
         "ar": "أنا أتعلم الويب الدلالي"
+    },
+    "heading_education": {
+        "fr": "Formation",
+        "en": "Education",
+        "ar": "التعليم"
+    },
+    "heading_projects": {
+        "fr": "Projets Informatiques",
+        "en": "IT Projects",
+        "ar": "مشاريع حاسوبية"
+    },
+    "heading_skills": {
+        "fr": "Compétences",
+        "en": "Skills",
+        "ar": "المهارات"
+    },
+    "heading_languages": {
+        "fr": "Langues",
+        "en": "Languages",
+        "ar": "اللغات"
+    },
+    "heading_interests": {
+        "fr": "Centres d'intérêt",
+        "en": "Interests",
+        "ar": "الاهتمامات"
+    },
+    "edu_bac_title": {
+        "fr": "Baccalauréat Général",
+        "en": "General Baccalaureate",
+        "ar": "البكالوريا العامة"
+    },
+    "edu_bac_desc": {
+        "fr": "Spécialités Mathématiques et NSI – Mention Très Bien",
+        "en": "Specialties: Mathematics and Computer Science (NSI) – High Honours",
+        "ar": "تخصصات: الرياضيات وعلوم الكمبيوتر (NSI) – تقدير ممتاز"
+    },
+    "edu_cpi_title": {
+        "fr": "Cursus Préparatoire Intégré",
+        "en": "Integrated Preparatory Course",
+        "ar": "برنامج تحضيري مدمج"
+    },
+    "edu_cpi_desc": {
+        "fr": "Université Paris 13 – Villetaneuse",
+        "en": "University Paris 13 – Villetaneuse",
+        "ar": "جامعة باريس 13 – فيليتانوز"
+    },
+    "edu_ing_title": {
+        "fr": "École d'ingénieurs Sup Galilée",
+        "en": "Sup Galilée Engineering School",
+        "ar": "مدرسة المهندسين سوب غاليلي"
+    },
+    "edu_ing_desc": {
+        "fr": "Spécialité Informatique – Alternance",
+        "en": "Computer Science major – Apprenticeship",
+        "ar": "تخصص علوم الحاسوب – نظام التناوب"
+    },
+    "project_ga_title": {
+        "fr": "Algorithme génétique pour ordonnancement",
+        "en": "Genetic Algorithm for Scheduling",
+        "ar": "خوارزمية جينية لجدولة المهام"
+    },
+    "project_ga_desc": {
+        "fr": "Implémentation en C – 2023",
+        "en": "C implementation – 2023",
+        "ar": "تنفيذ بلغة C – 2023"
+    },
+    "project_tet_title": {
+        "fr": "Tetris",
+        "en": "Tetris",
+        "ar": "تتريس"
+    },
+    "project_tet_desc": {
+        "fr": "Langage C – 2023",
+        "en": "C language – 2023",
+        "ar": "لغة C – 2023"
+    },
+    "project_2k_title": {
+        "fr": "Puissance 4 et 2048",
+        "en": "Connect Four & 2048",
+        "ar": "كونيكت فور و 2048"
+    },
+    "project_2k_desc": {
+        "fr": "Python avec Tkinter",
+        "en": "Python with Tkinter",
+        "ar": "بايثون مع Tkinter"
+    },
+    "skills_languages": {
+        "fr": "Langages : C, Python, Octave (MATLAB)",
+        "en": "Languages : C, Python, Octave (MATLAB)",
+        "ar": "لغات البرمجة: C، Python، Octave (MATLAB)"
+    },
+    "skills_office": {
+        "fr": "Bureautique : Word, Excel",
+        "en": "Office : Word, Excel",
+        "ar": "برامج المكتب: Word، Excel"
+    },
+    "language_english": {
+        "fr": "Anglais : courant",
+        "en": "English : fluent",
+        "ar": "الإنجليزية: بطلاقة"
+    },
+    "language_german": {
+        "fr": "Allemand : débutant",
+        "en": "German : beginner",
+        "ar": "الألمانية: مبتدئ"
+    },
+    "interest_games": {
+        "fr": "Jeux Vidéo",
+        "en": "Video Games",
+        "ar": "ألعاب الفيديو"
+    },
+    "interest_chess": {
+        "fr": "Échecs",
+        "en": "Chess",
+        "ar": "الشطرنج"
+    },
+    "interest_manga": {
+        "fr": "Mangas",
+        "en": "Manga",
+        "ar": "المانغا"
     }
 }

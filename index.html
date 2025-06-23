@@ -36,13 +36,86 @@
     <button onclick="setLanguage('en')">EN</button>
     <button onclick="setLanguage('ar')">AR</button>
   </div>
-  <div class="me" typeof="foaf:Person">
+
+  <section about="#me" class="me" typeof="foaf:Person">
     <p id="name" property="foaf:name">Bombay Marc</p>
     <p id="title">...</p>
-    <p id="email" property="foaf:mbox">bombay.marc@gmail.com</p>
-  </div>
+    <p property="schema:address">92600, Asnières-sur-Seine</p>
+    <p><a href="mailto:bombay.marc@gmail.com" property="foaf:mbox">bombay.marc@gmail.com</a></p>
+  </section>
   <p id="intro" property="dc:description">...</p>
+
+    <section>
+    <h2 id="hdr-edu">Formation</h2>
+
+    <div typeof="dc:EducationEvent">
+      <h3 property="dc:title" id="edu-bac-title">...</h3>
+      <p property="dc:description" id="edu-bac-desc">Spécialités Mathématiques, et NSI - Mention Très Bien</p>
+      <time property="dc:date" datetime="2021">2021</time>
+    </div>
+
+    <div typeof="dc:EducationEvent">
+      <h3 property="dc:title" id="edu-cpi-title">Cursus Préparatoire Intégré</h3>
+      <p property="dc:description" id="edu-cpi-desc">Université Paris 13 - Villetaneuse</p>
+      <time property="dc:date" datetime="2021">2021 - 2023</time>
+    </div>
+
+    <div typeof="dc:EducationEvent">
+      <h3 property="dc:title" id="edu-ing-title">École d'ingénieurs Sup Galilée</h3>
+      <p property="dc:description" id="edu-ing-desc">Spécialité Informatique - Alternance</p>
+      <time property="dc:date" datetime="2023">2023 - 2026</time>
+    </div>
+  </section>
+
+  <section>
+    <h2 id="hdr-proj">Projets Informatiques</h2>
+
+    <div typeof="foaf:Project">
+      <h3 property="dc:title" id="prj-ga-title">Algorithme génétique pour ordonnancement</h3>
+      <p property="dc:description" id="prj-ga-desc">Langage C, 2023</p>
+      <time property="dc:date" datetime="2023">2023</time>
+    </div>
+
+    <div typeof="foaf:Project">
+      <h3 property="dc:title" id="prj-tet-title">Tetris</h3>
+      <p property="dc:description" id="prj-tet-desc">Langage C</p>
+      <time property="dc:date" datetime="2023">2023</time>
+    </div>
+
+    <div typeof="foaf:Project">
+      <h3 property="dc:title" id="prj-2k-title">Puissance 4 et 2048</h3>
+      <p property="dc:description" id="prj-2k-desc">Python avec Tkinter</p>
+      <time property="dc:date" datetime="2021">2021</time>
+    </div>
+  </section>
+
+  <section>
+    <h2 id="hdr-skl">Compétences</h2>
+    <ul>
+      <li property="dc:subject" id="skl-lang">Langages : C, Python, Octave (MATLAB)</li>
+      <li property="dc:subject" id="skl-office">Bureautique : Word, Excel</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 id="hdr-lang">Langues</h2>
+    <ul typeof="rdf:Bag" property="foaf:knowsLanguage">
+      <li property="rdf:li" content="en" id="lang-en">Anglais : courant</li>
+      <li property="rdf:li" content="de" id="lang-de">Allemand : débutant</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 id="hdr-interest">Centres d'intérêt</h2>
+    <ul>
+      <li property="schema:hasInterest" id="int-vg">Jeux Vidéo</li>
+      <li property="schema:hasInterest" id="int-chess">Échecs</li>
+      <li property="schema:hasInterest" id="int-manga">Mangas</li>
+    </ul>
+  </section>
+
 
   <script src="script.js"></script>
 </body>
+
 </html>
