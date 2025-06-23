@@ -8,7 +8,7 @@ body {
   padding: 20px;
   font-family: "Helvetica Neue", Arial, sans-serif;
   line-height: 1.6;
-  background: #fafafa;
+  background: linear-gradient(rgba(133,113,133,0.3),#fff);
   color: #222;
 }
 
@@ -62,11 +62,12 @@ h2 {
 }
 
 section {
-  background-color:#bdbdbd;
   margin-top: 1.5rem;
   border-bottom: 1px solid var(--clr-border);
   padding: 0.5rem;
   border-radius:1em;
+  border-style:solid;
+  border-color:rgba(120,120,120,50);
 }
 
 section div {
