@@ -1,0 +1,60 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  background: #fafafa;
+  color: #222;
+}
+
+.lang-switch {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 1000;
+}
+
+.lang-switch button {
+  padding: 0.4rem 0.6rem;
+  border: none;
+  background: #e0e0e0;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.lang-switch button:hover,
+.lang-switch button:focus-visible {
+  background: #bdbdbd;
+}
+
+h1 {
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+video {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  margin-top: 1.5rem;
+  border-radius: 6px;
+}
+
+/* Support pour les interfaces RTL */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .lang-switch {
+  right: auto;
+  left: 10px;
+}

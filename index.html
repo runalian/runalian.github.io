@@ -1,9 +1,24 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <p>bonjour vous vous trouvez pas sur le portfolio de marc bombay.</p>
-  </body>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Multilingue</title>
+  <link rel="alternate" href="index.php?lang=fr" hreflang="fr"/>
+  <link rel="alternate" href="index.php?lang=en" hreflang="en"/>
+  <link rel="alternate" href="index.php?lang=ar" hreflang="ar"/>
+  <meta name="description" content="Portfolio personnel multilingue">
+  <meta property="og:locale" content="fr_FR"/>
+  <meta property="og:type" content="website"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="lang-switch">
+    <button onclick="setLanguage('fr')">FR</button>
+    <button onclick="setLanguage('en')">EN</button>
+    <button onclick="setLanguage('ar')">AR</button>
+  </div>
+  <h1 id="title">Chargement...</h1>
+  <p id="intro">...</p>
+</body>
+<script src="script.js"></script>
 </html>

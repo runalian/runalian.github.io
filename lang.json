@@ -1,0 +1,13 @@
+{
+    "home_title":{
+        "fr": "Bienvenue sur mon portfolio",
+        "en": "Welcome to my portfolio",
+        "ar": "مرحبًا بك في ملفي الشخصي"
+    },
+
+    "introduction":{
+        "fr" : "J'apprends le web sémantique",
+        "en" : "I'm learning the semantic web",
+        "ar": "أنا أتعلم الويب الدلالي"
+    }
+}
